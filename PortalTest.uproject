@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1A0812E0-4C45-18A9-D450-62A6A4CBAF2E}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "PortalTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject"
+			]
+		},
+		{
+			"Name": "DoubleLinkedList",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
